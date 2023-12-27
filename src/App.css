@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* Hide the default appearance */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px; /* Set a height for the track */
+  border-radius: 3px; /* Optional: Round the corners of the track */
+}
+
+/* Hide the thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0; /* Set width to 0 to hide the thumb */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 0;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 0;
+}
+
